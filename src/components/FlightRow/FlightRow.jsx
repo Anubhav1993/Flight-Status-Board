@@ -8,7 +8,7 @@ const FlightRow = ({ flight, index }) => {
     airline,
     origin,
     destination,
-    depatureTime,
+    departureTime,
     status,
   } = flight;
   const getStatusClass = useCallback((status) => {
@@ -31,7 +31,7 @@ const FlightRow = ({ flight, index }) => {
       <td>{airline}</td>
       <td>{origin}</td>
       <td>{destination}</td>
-      <td>{depatureTime}</td>
+      <td>{new Date(departureTime).toLocaleString()}</td>
       <td className={getStatusClass(status)}>{status}</td>
       <td>
         <Link to={`/flight/${id}`} className="details-link">
