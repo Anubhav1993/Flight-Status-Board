@@ -1,0 +1,43 @@
+.flight-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flight-details-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.flight-detail {
+  margin-bottom: 10px;
+}
+
+.flight-detail label {
+  font-weight: bold;
+}
+
+.flight-detail .status {
+  font-weight: bold;
+  color: #f0f1f3;
+}
+
+.flight-detail .status.on time {
+  background-color: #28a745;
+}
+
+.flight-detail .status.delayed {
+  background-color: #dc3545;
+}
+
+.flight-detail .status.boarding {
+  background-color: #ffc107;
+}
+
+.flight-detail .status.departed {
+  background-color: #007bff;
+}
