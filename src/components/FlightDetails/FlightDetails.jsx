@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { FLIGHT_API_URL } from "../../utils/Constants";
 import "./FlightDetails.css";
 
-const FlightDetail = () => {
+const FlightDetails = () => {
   const { id } = useParams();
   const [flightDetails, setFlightDetails] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -64,4 +64,4 @@ const FlightDetail = () => {
     </div>
   );
 };
-export default FlightDetail;
+export default FlightDetails;
