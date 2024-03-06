@@ -4,11 +4,12 @@ import { FLIGHT_API_URL } from "../../utils/Constants";
 import "./FlightDetails.css";
 
 const FlightDetails = () => {
-  const { id } = useParams();
-  const [flightDetails, setFlightDetails] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const { id } = useParams();// Using the Id from the router dom 
+  const [flightDetails, setFlightDetails] = useState([]);// setting the flight details state
+  const [loading, setLoading] = useState(true);// set Loading status
+  const [error, setError] = useState(null);// Setting the error
 
+ // To set the Flight Detail data based on any modifications on the id Params
   useEffect(() => {
     const fetchFlightDetails = async () => {
       try {
