@@ -55,7 +55,7 @@ const FlightTable = () => {
           </thead>
           <tbody>
             {memoizedFlights.map((flight, index) => (
-              <FlightRow key={flight.id} flight={flight} index={index} />
+              <FlightRow key={flight.id} flight={flight} />
             ))}
           </tbody>
         </table>
