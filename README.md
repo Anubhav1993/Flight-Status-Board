@@ -1,6 +1,35 @@
 # Flight-Status-Board
 
-Flight Status board to mimic the real time flight status
+Flight Status board to mimic the real time flight status.
+
+
+# Features
+Flight Table: Display a list of flights with relevant information.
+Filght row:- Display the row data in the flight table with memo optimization.
+Filght Details View: Allow users to view detailed information about a specific flight.
+Real-time Updates: Fetch and update flight data at regular intervals.
+Error Handling: Provide feedback to users in case of errors or issues.
+Styling: Ensure a user-friendly design for easy readability
+
+# Technologies Used
+React.js
+React Router
+CSS 
+Fetch API (for data fetching)
+
+# Installation
+
+# Clone the repository
+git clone <repository_url>
+
+# Navigate to the project directory
+cd <project_directory>
+
+# Install dependencies
+npm install
+
+# Run the project
+npm start
 
 # Getting Started with Create React App
 
@@ -33,15 +62,32 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Usage
+Navigate to the home page to view the flight status board.
+Click on a flight to view detailed information.
+Check for real-time updates in the flight status.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Folder Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+project/
+│
+├── src/
+│   ├── components/          # Contains React components
+│   ├── styles/              # Contains CSS or styling files
+│   ├── utils/               # Contains utility functions
+│   ├── App.js               # Main application component
+│   ├── index.js             # Entry point of the application
+│   └── ...
+│
+├── public/                  # Contains public assets and index.html
+│   ├── index.html           # HTML template for the application
+│   └── ...
+│
+└── ...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Contributing
+Provide guidelines for contributing to the project. Include information on how to submit bug reports, feature requests, or pull requests.
+.
 
 ## Learn More
 
@@ -61,14 +107,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
