@@ -5,16 +5,24 @@ Flight Status board to mimic the real time flight status.
 
 # Features
 Flight Table: Display a list of flights with relevant information.
+
 Filght row:- Display the row data in the flight table with memo optimization.
+
 Filght Details View: Allow users to view detailed information about a specific flight.
+
 Real-time Updates: Fetch and update flight data at regular intervals.
+
 Error Handling: Provide feedback to users in case of errors or issues.
+
 Styling: Ensure a user-friendly design for easy readability
 
 # Technologies Used
 React.js
+
 React Router
-CSS 
+
+CSS
+
 Fetch API (for data fetching)
 
 # Installation
