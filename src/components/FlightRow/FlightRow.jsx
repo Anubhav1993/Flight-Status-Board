@@ -10,7 +10,10 @@ const FlightRow = ({ flight, index }) => {
     destination,
     departureTime,
     status,
-  } = flight;
+  } = flight; // Destructing the Array to get the exact values needed
+
+  //Getting the CSS class dynamically to show the color based on the flight status
+ // Function is created as a callback function for memory optimization 
   const getStatusClass = useCallback((status) => {
     switch (status.toLowerCase()) {
       case "on time":
