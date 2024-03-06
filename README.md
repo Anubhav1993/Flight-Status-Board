@@ -78,16 +78,30 @@ Check for real-time updates in the flight status.
 # Folder Structure
 
 project/
+
 │
+
 ├── src/
-│   ├── components/          # Contains React components
-│   ├── styles/              # Contains CSS or styling files
+
+│ 
+
+├── components/          # Contains React components
+
+│ 
+
+├── styles/              # Contains CSS or styling files
+
 │   ├── utils/               # Contains utility functions
+
 │   ├── App.js               # Main application component
+
 │   ├── index.js             # Entry point of the application
+
 │   └── ...
 │
+
 ├── public/                  # Contains public assets and index.html
+
 │   ├── index.html           # HTML template for the application
 │   └── ...
 │
